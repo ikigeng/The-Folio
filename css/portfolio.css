@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #343a40; /* Dark gray text color to match header */
+    background: #ffffff; /* White background */
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1 {
+    text-align: center;
+    color: #343a40; /* Dark gray for headings */
+}
+p {
+    text-align: center;
+    color: #6c757d; /* Medium gray for text */
+}
+
+/* Navbar */
+.navbar {
+    background: #ffffff; /* White background */
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #e9ecef; /* Light border */
+}
+.navbar .logo {
+    color: #343a40; /* Dark gray text for logo */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #6c757d; /* Medium gray for links */
+    font-size: 14px;
+}
+.nav-links a:hover {
+    color: #343a40; /* Dark gray for hover effect */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #ffffff; /* White background */
+}
+.hero h1, .hero h2 {
+    color: #343a40; /* Dark gray text for hero */
+}
+.cta-button {
+    background: #6c757d; /* Medium gray background for button */
+    color: #ffffff; /* White text for button */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.cta-button:hover {
+    background: #343a40; /* Dark gray for hover effect */
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 20px;
+    background: #ffffff; /* White background */
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.project-card {
+    background: #f8f9fa; /* Light gray background for cards */
+    border-radius: 8px;
+    overflow: hidden;
+    color: #343a40; /* Dark gray text for project details */
+    text-align: left;
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.project-info {
+    padding: 20px;
+}
+.project-info h2 {
+    color: #343a40; /* Dark gray for titles */
+    margin-bottom: 10px;
+}
+.project-info ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+.project-info a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6c757d; /* Medium gray for links */
+    text-decoration: none;
+}
+.project-info a:hover {
+    color: #343a40; /* Dark gray for hover effect */
+}
+
+/* Technologies Used Section */
+.technologies-used {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f8f9fa; /* Light gray background */
+}
+.technologies-used h3 {
+    color: #343a40; /* Dark gray for section title */
+    margin-bottom: 10px;
+    text-align: center;
+}
+.technologies-used .tech-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.technologies-used .tech-list li {
+    background: #e9ecef; /* Light gray for tech items */
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #343a40; /* Dark gray for tech names */
+    font-size: 0.9rem;
+}
+
+/* Footer */
+/*Footer elements styles*/
+footer{
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    font-size: 14px; 
+    color: #6c757d; 
+    border-top: 1px solid #e9ecef;
+}
+.footer-nav{
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+.footer-links h4{
+    font-size: 16px; 
+    color: #343a40; 
+    margin-bottom: 10px;
+}
+.footer-links ul{
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+.footer-links a{
+    text-decoration: none; 
+    color: #6c757d;
+}
+.footer-logos h4{
+    font-size: 16px; 
+    color: #343a40; 
+    margin-bottom: 10px;
+}
+.footer-logos img{
+    width: 50px; height: auto;
+}
+.footer-logos sub{
+    display: flex; 
+    gap: 10px;
+}
+.copyright{
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 12px; 
+    color: #adb5bd;
+}
