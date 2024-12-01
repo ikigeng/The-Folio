@@ -4,6 +4,22 @@
     line-height: 1.5;
 }
 
+/*Section generic*/
+
+
+/*Background*/
+.background a {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit;
+}
+
+/*Skills*/
+/*Work Experience*/
+/*Portfolio*/
+
 /*Footer elements styles*/
 footer{
     background-color: #f8f9fa; 
