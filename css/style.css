@@ -8,12 +8,25 @@ body{
     line-height: 1.5;
 }
 
-/*Section generic*/
 
+.image-section {
+    margin-top: 2%;
+    margin-left: 100px;
+    text-align: left;
+    margin-bottom: -50px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    object-fit: cover;
+}
 
 /*Background*/
 .background{
         margin-bottom: -150px;
+        margin-top: -300px;
 
 }
 .background a {
@@ -34,7 +47,7 @@ body{
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 100px 170px
+    padding: 100px 170px;
 }
 .section__title {
     -ms-flex-negative: 0;
