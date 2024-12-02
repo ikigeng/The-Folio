@@ -14,3 +14,14 @@
 
     typeWriter();
 });
+
+//I want to dynamicaly load my header and footer with js, instead of having the code repeated in all my html files
+// Load header
+fetch('header.html')
+.then(response => response.text())
+.then(data => document.getElementById('header').innerHTML = data);
+
+// Load footer
+fetch('footer.html')
+.then(response => response.text())
+.then(data => document.getElementById('footer').innerHTML = data);
